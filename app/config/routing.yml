@@ -1,3 +1,9 @@
-app:
-    resource: @AppBundle/Controller/
+adp_frontend:
+    resource: "@AdpFrontendBundle/Controller/"
     type:     annotation
+    prefix:   /
+
+adp_backend:
+    resource: "@AdpBackendBundle/Controller/"
+    type:     annotation
+    prefix:   /
